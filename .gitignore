@@ -39,3 +39,7 @@
 
 # debug information files
 *.dwo
+
+*.uf2  # RP2040ブートローダーファイル
+build/  # Arduinoビルド出力
+.pio/   # PlatformIO（使わない場合も無害）
